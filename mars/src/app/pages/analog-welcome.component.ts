@@ -4,7 +4,8 @@ import { FormsModule, NgForm } from "@angular/forms";
 import { shareReplay, Subject, switchMap, take } from "rxjs";
 import { waitFor } from "@analogjs/trpc";
 import { injectTrpcClient } from "../../trpc-client";
-import { Note } from "../../note";
+// import { Note } from "../../note";
+import { Note } from '../../db';
 
 @Component({
   selector: "mars-analog-welcome",
